@@ -13,7 +13,6 @@ const Home = () => {
     // console.log(countries)
     return (
         <div>
-            <h3>This is a list of countries</h3>
             {
                 countries.map(country => <Countries
                     key={country.numericCode} country={country}></Countries>)
